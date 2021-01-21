@@ -25,6 +25,7 @@
     "@storybook/addon-essentials": "^6.1.14",
     "@storybook/addon-links": "^6.1.14",
     "@storybook/react": "^6.1.14",
-    "babel-loader": "^8.2.2"
+    "babel-loader": "^8.2.2",
+    "fs": "^0.0.1-security"
   }
 }
