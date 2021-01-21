@@ -1,6 +1,8 @@
 import useSWR from 'swr'
 import Link from 'next/link'
+import React from 'react'
 import { useUser } from '../utils/auth/useUser'
+import { redirect } from 'next/dist/next-server/server/api-utils'
 
 const fetcher = (url, token) =>
   fetch(url, {
@@ -21,9 +23,12 @@ const Index = () => {
         <p>Hi there!</p>
         <p>
           You are not signed in.{' '}
-          <Link href={'/auth'}>
-            <a>Sign in</a>
-          </Link>
+          <Button
+            backgroundColor="rgba(119,98,206,1)"
+            label="Sign in"
+            onClick={() => {redirect => {'/auth'}}}
+            primary
+          />
         </p>
       </>
     )

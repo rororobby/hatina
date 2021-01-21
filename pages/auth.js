@@ -1,4 +1,5 @@
 import FirebaseAuth from '../components/FirebaseAuth'
+import React from 'react'
 
 const Auth = () => {
   return (
