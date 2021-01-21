@@ -18,11 +18,11 @@ Set up Firebase:
 Install it and run:
 
 ```bash
-npm install
-npm run dev
+$ npm install
+$ npm run dev
 # or
-yarn
-yarn dev
+$ yarn
+$ yarn dev
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
